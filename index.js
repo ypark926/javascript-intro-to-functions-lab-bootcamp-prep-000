@@ -21,13 +21,14 @@ function sayHiToGrandma(string) {
   var lowercaseAnswer = "I can\'t hear you!";
  
   if (string === "I love you, Grandma.") {
-    return 
+    return "I love you, too.";
   }
-  if (string === uppercase) {
+  
+  else if (string === uppercase) {
     return uppercaseAnswer;
   }
   
-  if (string === lowercase) {
+  else {
     return lowercaseAnswer;
   }
 }
